@@ -19,7 +19,7 @@ average([2, 3, 4, 5, 6]);
 //zad 4
 const grades = [1, 5, 5, 5, 4, 3, 3, 2, 1];
 const tab1 = [...numbers, 2, 3];
-const average = args => args.reduce((a,b) => a + b, 0) / args.length
+const averageTwo = args => args.reduce((a,b) => a + b, 0) / args.length
 
 average(tab1);
 
