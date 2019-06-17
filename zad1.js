@@ -1,12 +1,12 @@
 //zad 1
-let gret = 'Hello';
-let name = 'World';
+const gret = 'Hello';
+const name = 'World';
 
 
 console.log(`${gret} ${name}`);
 
 //zad 2
-let multiplay = (a, b = 1) => {return a * b};
+const multiplay = (a, b = 1) => {return a * b};
 
 multiplay(5);
 multiplay(5, 6);
@@ -25,7 +25,7 @@ average(tab1);
 
 //zad 5 
 
-let tab2 = [1, 4, 'Iwona', false, 'Nowak'];
+const tab2 = [1, 4, 'Iwona', false, 'Nowak'];
 const [ , , firstName, , lastName] = tab2;  
 
 console.log(firstName, lastName);
